@@ -1,6 +1,5 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
 import { PaymentsService } from './payments.service';
-import { ok } from 'assert';
 
 @Controller('payments')
 export class PaymentsController {
